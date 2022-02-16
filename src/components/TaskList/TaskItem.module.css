@@ -1,0 +1,14 @@
+.list-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    width: 20px;
+}

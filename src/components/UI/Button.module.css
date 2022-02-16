@@ -1,0 +1,53 @@
+
+.add-button, .delete-all-button{
+    width: 15%;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font: inherit;
+    font-size: 15px;
+    transition: 150ms ease-out;
+}
+
+.add-button{
+    background-color: #3381FF;
+}
+
+.delete-all-button{
+    margin-top: 10px;
+    float: right;
+    background-color: #ff3a33de;
+}
+
+.add-button:hover{
+    color: #3381FF;
+    border: 1px solid #3381FF;
+    background-color: #FFFFFF;
+}
+
+.delete-all-button:hover{
+    color: #ff3a33de;
+    border: 1px solid #ff3a33de;
+    background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 860px) {
+    .add-button, .delete-all-button {
+        font-size: 10px;
+        padding: 15px 20px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .add-button, .delete-all-button{
+        width: 100%;
+    }
+    .add-button{
+        margin-top: 5px;
+        margin-bottom: 24px;
+    }
+    .delete-all-button{
+        margin-top: 20px;
+    }
+}
